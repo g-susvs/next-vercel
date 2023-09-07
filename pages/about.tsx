@@ -17,7 +17,7 @@ export default function AboutPage() {
 }
 
 // Function that return a react component to design
-AboutPage.getLayout = function getLayout(page) {
+AboutPage.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
       <DarkLayout>{page}</DarkLayout>
